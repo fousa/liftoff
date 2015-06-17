@@ -2,6 +2,7 @@ module Liftoff
   class ProjectConfiguration
     attr_accessor :project_name,
       :company,
+      :something,
       :prefix,
       :test_target_name,
       :configure_git,
