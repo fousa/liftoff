@@ -1,0 +1,6 @@
+$LOAD_PATH.unshift(File.expand_path("../i18n-0.6.11/lib", __FILE__))
+$LOAD_PATH.unshift(File.expand_path("../multi_json-1.10.1/lib", __FILE__))
+$LOAD_PATH.unshift(File.expand_path("../activesupport-3.2.19/lib", __FILE__))
+$LOAD_PATH.unshift(File.expand_path("../colored-1.2/lib", __FILE__))
+$LOAD_PATH.unshift(File.expand_path("../highline-1.6.21/lib", __FILE__))
+$LOAD_PATH.unshift(File.expand_path("../xcodeproj-0.19.3/lib", __FILE__))

@@ -1,6 +1,7 @@
 vendor/gems
-pkg/
 
 # Sub-repositories for release
 gh-pages
 homebrew-formulae
+*.swp
+.DS_Store
