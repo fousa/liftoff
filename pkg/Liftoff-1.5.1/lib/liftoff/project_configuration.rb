@@ -2,7 +2,6 @@ module Liftoff
   class ProjectConfiguration
     attr_accessor :project_name,
       :company,
-      :something,
       :prefix,
       :test_target_name,
       :configure_git,
@@ -22,7 +21,10 @@ module Liftoff
       :xcode_command,
       :extra_config,
       :extra_test_config,
-      :deployment_target
+      :deployment_target,
+      :use_fastlane,
+      :use_care,
+      :use_splunk
 
     attr_writer :author,
       :company_identifier,
