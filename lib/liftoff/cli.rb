@@ -92,6 +92,20 @@ module Liftoff
         opts.on('--test-target-name [TEST_TARGET_NAME]', 'Set the name of the unit test target') do |test_target_name|
           @options[:test_target_name] = test_target_name
         end
+
+        ### Custom changes.
+
+        opts.on('--care', "Integrate iCapps Care") do
+          @options[:use_care] = true
+        end
+
+        opts.on('--fastlane', "Integrate fastlane") do
+          @options[:use_fastlane] = true
+        end
+
+        opts.on('--splunk', "Integrate splunk") do
+          @options[:use_splunk] = true
+        end
       end
     end
   end
